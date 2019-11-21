@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Nearby.RestaurentsItems.RestaurentNearby">
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/heart"
+        android:id="@+id/images_I"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textN"
+            android:paddingLeft="10dp"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="full meals"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"
+            tools:ignore="InvalidId"
+            android:textColor="#000"
+            />
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/costN"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="80"
+            android:gravity="center"
+            android:textSize="25sp"
+            tools:ignore="InvalidId" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:onClick="btn_plusN"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="+"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="40dp"
+            tools:ignore="OnClick" />
+        <TextView
+            android:id="@+id/tv_numN"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="0"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:onClick="btn_minusN"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="-"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="Total Prize:"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_prizeN"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#00E676"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:onClick="addToCartN"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="add to cart"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="@drawable/et_back"
+        android:layout_gravity="center"
+        tools:ignore="OnClick">
+    </Button>
+
+</LinearLayout>
+
+
+
+
+
+

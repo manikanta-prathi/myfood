@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileSettings.CreditorDebitCard">
+    <include
+        layout="@layout/tool_bar"
+>
+
+    </include>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Card number"
+        android:background="@drawable/et_back"
+        android:padding="20dp"
+        android:inputType="number"
+        android:textColorHint="#000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:hint="MM/YY"
+            android:layout_margin="10dp"
+            android:textColorHint="#000"
+            android:lines="1"
+            android:background="@drawable/et_back"
+            android:inputType="date"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:hint="CVV"
+            android:layout_margin="10dp"
+            android:textColorHint="#000"
+            android:lines="1"
+            android:maxLength="3"
+            android:background="@drawable/et_back"
+            android:inputType="date"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="country"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spiner"
+            android:entries="@array/spinner"
+            android:background="@drawable/et_back"
+            android:layout_margin="10dp"
+            >
+
+        </Spinner>
+
+    </LinearLayout>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="zip code"
+        android:background="@drawable/et_back"
+        android:textColorHint="#000"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:lines="1"
+        android:padding="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_marginTop="80dp"/>
+</LinearLayout>

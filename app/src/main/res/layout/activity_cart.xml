@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OptionMenu.Cart">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="total items:"
+            android:textSize="25sp"
+            android:textColor="#000"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="cost"
+            android:textSize="25sp"
+            android:id="@+id/tItems"
+            android:gravity="center"
+            android:textColor="#EB131212"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:padding="10dp"
+    android:layout_width="0dp"
+    android:layout_weight="5"
+    android:layout_height="wrap_content"
+    android:text="total amount:"
+    android:textSize="25sp"
+    android:id="@+id/tAmount"
+    android:textColor="#000"
+    tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="cost"
+            android:textSize="25sp"
+            android:id="@+id/value"
+            android:gravity="center"
+            android:textColor="#EB131212"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:padding="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:text="delivery time:"
+        android:textSize="25sp"
+        android:id="@+id/dtime"
+        android:textColor="#000"
+        tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="15min"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:id="@+id/etime"
+            android:textColor="#EB131212"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:entries="@array/location"
+        android:padding="10dp"
+
+        >
+    </Spinner>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="change your location"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textColor="#0BEB7E"
+        android:layout_gravity="center"
+        android:padding="7dp"
+        android:gravity="center"
+        android:id="@+id/cyl"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="confirm your order"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+
+        android:padding="7dp"
+        android:onClick="corder"
+        android:textColor="#0A2DF3"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

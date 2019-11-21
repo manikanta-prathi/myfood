@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <include
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:id="@+id/payment"
+        android:drawableLeft="@drawable/ic_payment_black_24dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:id="@+id/help1"
+        android:padding="10dp"
+        android:drawablePadding="15dp"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_help_black_24dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="share"
+        android:id="@+id/share"
+        android:drawablePadding="15dp"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_share_black_24dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="settings"
+        android:id="@+id/settings"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/profile"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textSize="25sp"
+        android:id="@+id/feedback"
+        android:padding="10dp"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/ic_feedback_black_24dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:drawablePadding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="about"
+        android:id="@+id/about"
+        android:drawablePadding="15dp"
+        android:padding="10dp"
+        android:textSize="25sp"
+        />
+
+
+
+</LinearLayout>

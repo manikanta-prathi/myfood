@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileSettings.Help.Help1">
+    <include
+        layout="@layout/tool_bar"
+        >
+
+    </include>
+    <TextView
+        android:id="@+id/last_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="last orders"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/accandpay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account and payment options"
+        android:padding="10dp"
+        android:textSize="20sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/guidmyfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guide to My Food"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+
+</LinearLayout>

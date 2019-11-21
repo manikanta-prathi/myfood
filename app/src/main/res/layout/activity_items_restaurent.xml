@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".Items.ItemsRestaurent">
+    <include
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/full_meal"
+        android:scaleType="fitXY"
+        android:layout_margin="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text"
+        android:paddingLeft="10dp"
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="full meals"
+
+        android:textSize="30sp"
+        tools:ignore="InvalidId"
+        android:textColor="#000"/>
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/cost"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="80"
+            android:gravity="center"
+            android:textSize="30sp"
+            tools:ignore="InvalidId" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:onClick="btn_plus"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="+"
+        android:textColor="#000"
+android:gravity="center"
+        android:textSize="40dp"
+        tools:ignore="OnClick" />
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="0"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:onClick="btn_minus"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:text="-"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="Total Prize:"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+        <TextView
+            android:id="@+id/tv_prize"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#00E676"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="200dp"
+        android:onClick="addToCart"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="add to cart"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="@drawable/et_back"
+        android:layout_gravity="center"
+        >
+    </Button>
+
+    </LinearLayout>
+
+
+
+

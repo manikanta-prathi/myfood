@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo1"
+
+        />
+        <EditText
+            android:id="@+id/etMail_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="60dp"
+            android:maxLines="1"
+            android:background="@drawable/et_back"
+            android:hint="enter your mail id"
+            android:inputType="textEmailAddress" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/pswd_login"
+            android:layout_width="match_parent"
+            android:background="@drawable/et_back"
+
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:hint="enter your password"
+            android:maxLength="10"
+            android:maxLines="10"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/fgtpswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="forgotten password?"
+        android:textColor="#0C86E7"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/back_btn"
+        android:gravity="center"
+        android:onClick="login"
+        android:text="login"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:text="don't have an account?"
+            android:textColor="#EE1919"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="register here:)"
+            android:textColor="#1967EE"
+            android:textSize="20sp" />
+        <ProgressBar
+            android:id="@+id/pbarlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

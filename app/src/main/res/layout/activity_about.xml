@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileSettings.About">
+    <include
+        layout="@layout/tool_bar"
+        >
+
+    </include>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="like us Google"
+        android:textColor="#000"
+        android:padding="30dp"
+        android:textSize="20sp"
+        android:onClick="google"
+        tools:ignore="OnClick" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="like us facebook"
+        android:textColor="#000"
+        android:padding="30dp"
+        android:textSize="20sp"
+        android:onClick="facebook"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="like us Instagram"
+        android:textColor="#000"
+        android:padding="30dp"
+        android:textSize="20sp"
+        android:onClick="instagram"
+        />
+
+
+
+</LinearLayout>

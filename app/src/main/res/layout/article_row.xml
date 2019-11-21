@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/cv_a"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/row_tv_a"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="chicken making"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="22sp"/>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">myFOOD</string>
+    <string name="near_by">near by</string>
+    <string name="items">items</string>
+    <string name="library">library</string>
+    <string name="profile">profile</string>
+    <string name="process">
+        Pinapple is a tropical fruit which is not only tasty but /n
+        offers a myriad list of health benefits. Whether you /n
+        are using it as meat tenderizer, a garnish for a cocktail/n
+        or a addition to a salad or main dish, it is cost effective way to /n
+        get your Vitamin C. Peeling a pineapple is a tough task because of/n
+        its thick skin, however, you can follow these steps to remove the skin easily./n
+        Step 1: Set the pineapple on the cutting board and slice off the top green crown area./n
+
+Step 2: Use a sharp knife, slice through the outside peel from top to bottom. /n
+        Make sure you are not chopping off the yellow flesh /n
+        with the peel./n
+
+Step 3: Cut the eyes or spots from the pineapple./n
+
+Step 4: Now, chop pineapple into desired pieces.
+    </string>
+    <string-array name="spinner">
+        <item>India(+91)</item>
+        <item>Afghanistan(+93)</item>
+        <item>Aland island(+358)</item>
+        <item>brunei(+673)</item>
+        <item>botswana(+267)</item>
+        <item>brazil(+55)</item>
+        <item>cambodia(+855)</item>
+        <item>cameroon(+1)</item>
+        <item>chile(+56)</item>
+        <item>china(+86)</item>
+        <item>denmark(+45)</item>
+        <item>djibouti(+253)</item>
+        <item>egypt(+20)</item>
+        <item>ethiopia(+251)</item>
+        <item>eritrea(+291)</item>
+        <item>fiji(+679)</item>
+        <item>france(+33)</item>
+        <item>gabon(+241)</item>
+        <item>ghana(+233)</item>
+        <item>greenland(+299)</item>
+        <item>haiti(+509)</item>
+        <item>india(+91)</item>
+        <item>laos(+856)</item>
+        <item>latvia(+371)</item>
+        <item>lebanon(+266)</item>
+        <item>macau(+853)</item>
+        <item>oman(+968)</item>
+        <item>zambia(+260)</item>
+    </string-array>
+    <string-array name="location">
+        <item>narasarao peta</item>
+        <item>sattenapalle</item>
+        <item>guntur</item>
+        <item>vijayawada</item>
+
+    </string-array>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_methods">payment methods</string>
+    <string name="cash">cash on delivery</string>
+</resources>

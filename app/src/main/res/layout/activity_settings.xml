@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileSettings.Settings">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+      android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mockuser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="10dp"
+            android:text="user name:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvusername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="user name"
+            android:textColor="#EB131212"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mailId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="10dp"
+            android:text="emailId:"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mockEmailId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="example@gmail.com"
+            android:textColor="#EB131212"
+            android:textSize="20sp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/mock_password"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="password:"
+
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvpassword"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="**********"
+        android:textColor="#EB131212"
+        android:textSize="20sp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/mock_phonenumber"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="phone number:"
+        android:textColor="#000"
+        android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvphonenumber"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="1234567890"
+            android:textColor="#EB131212"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <Button
+        android:onClick="logout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:background="@drawable/et_back"
+        android:layout_marginTop="30dp"
+        />
+    </LinearLayout>
+</RelativeLayout>

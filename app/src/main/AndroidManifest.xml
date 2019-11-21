@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shyaviman.myfood3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon">
+        <activity android:name=".ProfileSettings.Help.LastOrders"></activity>
+
+        <activity android:name=".Nearby.RestaurentsItems.RestaurentNearby" />
+        <activity android:name=".ProfileSettings.Location" />
+
+        <activity android:name=".ProfileSettings.Help.Help1" />
+        <activity android:name=".Items.ItemsRestaurent" />
+        <activity android:name=".SplashLoginRegister.ForgettenPswd" />
+        <activity
+            android:name=".ProfileSettings.GuidetoMyFood"
+            android:parentActivityName=".ProfileSettings.Help.Help1" />
+        <activity
+            android:name=".ProfileSettings.AccountandPaymentOptions"
+            android:parentActivityName=".ProfileSettings.Help.Help1" />
+        <activity
+            android:name=".ProfileSettings.PastOrders"
+            android:parentActivityName=".ProfileSettings.Help.Help1" />
+        <activity
+            android:name=".ProfileSettings.PhonePe"
+            android:parentActivityName=".ProfileSettings.AccountandPaymentOptions" />
+        <activity
+            android:name=".ProfileSettings.GooglePay"
+            android:parentActivityName=".ProfileSettings.AccountandPaymentOptions" />
+        <activity
+            android:name=".ProfileSettings.Paytm"
+            android:parentActivityName=".ProfileSettings.AccountandPaymentOptions" />
+        <activity
+            android:name=".ProfileSettings.CreditorDebitCard"
+            android:parentActivityName=".ProfileSettings.AccountandPaymentOptions" />
+        <activity
+            android:name=".ProfileSettings.Cash"
+            android:parentActivityName=".ProfileSettings.Payment" />
+        <activity
+            android:name=".ProfileSettings.PaymentMethod"
+            android:parentActivityName=".ProfileSettings.Payment" />
+        <activity android:name=".ProfileSettings.About" />
+        <activity android:name=".ProfileSettings.Settings" />
+        <activity android:name=".ProfileSettings.Payment" />
+        <activity android:name=".Favourates" />
+        <activity android:name=".Share" />
+        <activity android:name=".ProfileSettings.Feedback" />
+        <activity
+            android:name=".OptionMenu.Cart"
+            android:parentActivityName=".Navigation" />
+        <activity
+            android:name=".OptionMenu.Notification"
+            android:parentActivityName=".Navigation" />
+        <activity
+            android:name=".SplashLoginRegister.Register"
+            android:parentActivityName=".SplashLoginRegister.Home" />
+        <activity android:name=".VALib.ArticlesDisplayable" />
+        <activity
+            android:name=".Nearby.RestaurentsItems.Restaurent"
+            android:parentActivityName=".Navigation" />
+        <activity android:name=".Navigation" />
+        <activity android:name=".SplashLoginRegister.Home" />
+        <activity android:name=".SplashLoginRegister.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
